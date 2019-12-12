@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link rel="icon" href="../favicon.png" type="image/png" >
+<title>𝑷𝑯𝒀𝑺𝑰𝑪𝑺 c:</title>
+<style>
+    @font-face 
+	{
+		font-family: 'dosapp';
+		src: url(dosapp.ttf);
+		font-family: "dosapp", "Courier", monospace;
+	}
+	@font-face 
+	{
+		font-family: 'Gaegu-Regular';
+		src: url(../Gaegu-Regular.woff);
+		font-family: "Gaegu-Regular", "Courier", monospace;
+	}
+    @keyframes throb 
+	{
+		0%   {transform: scale(1.2);}
+		50%  {transform: scale(1.17);}
+		100% {transform: scale(1.2);}
+	}
+    .main
+	{
+		font-family: "Gaegu-Regular", "Courier", monospace;
+		color: black;
+		width: 756px;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 0.35px; 
+	}
+    .bg2 
+	{
+		width:150%;
+		min-height:calc(100vh + 500px);
+		position:fixed;
+		top:0;
+		left:0;
+		background-color: #faf6eb;
+		z-index:-1;
+    }
+    .imgbutton
+	{
+		border: 2px solid #88ff75;
+		margin: 10px;
+		box-shadow: 0px 0px 10px 2px #000000;
+		transition: 0.5s;
+        box-shadow:0px 0px 2px rgba(0,0,0,0.5);
+       filter: brightness(100%) grayscale(0%) sepia(0%) hue-rotate(360deg) saturate(100%) contrast(1);
+	}
+    @keyframes huecycle 
+    {
+        from 
+        {
+            filter: hue-rotate(0deg) saturate(200%);
+        }
+        to 
+        {
+            filter: hue-rotate(360deg) saturate(200%);
+        }
+    }
+	.imgbutton:hover
+	{
+		border: 2px solid #ffb545;
+		transition: 0.2s;
+        box-shadow:6px 6px 8px rgba(0,0,0,0.5);
+		transform:scale(1.125);
+	   border-image: url('thants.gif') 2 repeat;
+        filter: brightness(75%) grayscale(100%) sepia(100%) hue-rotate(360deg) saturate(200%) contrast(1.5);
+	}
+    .title
+    {
+        animation-name: throb;
+	   animation-duration: 2s;
+	   animation-iteration-count: infinite;
+	   animation-timing-function: ease-in-out;
+    }
+    
+</style>
+</head>
+<body>
+<div class="bg2" style="background-position: center;"></div>
+<center>
+	<img align="middle" src="learning.png" class="title"><br><br>
+    <a href="2DKinematics/index.html"><img class="imgbutton" src="kinematics.png"></a>
+    <a href="AtwoodsMachines/index.html"><img class="imgbutton" src="atwoods.png"></a>
+    <a href="Catapults/index.html"><img class="imgbutton" src="catapults.png"></a>
+    <br>
+    <a href="Energy/index.html"><img class="imgbutton" src="energy.png"></a>
+    <a href="AtomicParticles/index.html"><img class="imgbutton" src="atomic.png"></a>
+    <a href="Einstein/index.html"><img class="imgbutton" src="einstein.png"></a>
+    <br><br>
+    <a href="../main.html"><img src="back.png"></a>
+</center>
+</body>
+</html>

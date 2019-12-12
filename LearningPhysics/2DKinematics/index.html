@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    
+<link rel="icon" href="../../favicon.png" type="image/png" >
+<style>
+    @font-face 
+	{
+		font-family: 'Gaegu-Regular';
+		src: url(Gaegu-Regular.woff);
+		font-family: "Gaegu-Regular", "Courier", monospace;
+	}
+	body 
+	{
+		background-color:#000000;
+        color: #FFFFFF;
+        
+        margin:0;
+		padding:0;
+		height:100%;
+    }
+	.bg1 
+	{
+		width:150%;
+		min-height:calc(100vh + 500px);
+		position:fixed;
+		top:0;
+		left:0;
+		background-color: #faf6eb;
+		z-index:-1;
+    }
+	.main 
+	{
+		margin:32px;
+        width: 756px;
+        font-size: 30px;
+        line-height: 80%;
+    }
+	body
+	{
+	}
+	.hardshadow
+	{
+		box-shadow: 10px 10px grey;
+	}
+	.nameBack
+	{
+		background-color: white;
+		border: 5px solid black;
+	}
+	.infoTable
+	{
+		border: 5px solid #c2fcc6;
+        box-shadow: 0px 0px 20px 5px #000000;
+		background-color: #c2fcc6;
+        color: black;
+		line-height: 110%;
+        font-size: 60%;
+	}
+	.textTable
+	{
+		border: 5px solid transparent;
+        box-shadow: 0px 0px 20px 5px transparent;
+		background-color: transparent;
+		
+	}
+	.textTableTd
+	{
+		border: 3px solid transparent;
+		background-image: none;
+		color: black;
+	}
+	td
+	{
+        border: 3px solid #00094a;
+        background-color: #d5f7ee;
+        padding: 8px;
+        text-align: justify;
+    }
+	th
+	{
+		text-align: center;
+		color: #d10000;
+		transition: 0.5s;
+	}
+	th:hover
+	{
+		transform:scale(1.125);
+		transition: 0.2s;
+	}
+	.imgbutton
+	{
+		border: 2px solid #88ff75;
+		margin: 10px;
+		box-shadow: 0px 0px 10px 2px #000000;
+		transition: 0.5s;
+       filter: brightness(100%) grayscale(0%) sepia(0%) hue-rotate(360deg) saturate(100%) contrast(1);
+	}
+    @keyframes huecycle 
+    {
+        from 
+        {
+            filter: hue-rotate(0deg) saturate(200%);
+        }
+        to 
+        {
+            filter: hue-rotate(360deg) saturate(200%);
+        }
+    }
+	.imgbutton:hover
+	{
+		border: 2px solid #ffb545;
+		transition: 0.2s;
+		transform:scale(1.125);
+	   
+        filter: brightness(75%) grayscale(100%) sepia(100%) hue-rotate(360deg) saturate(200%) contrast(1.5);
+	}
+	div.footerText
+	{
+		border-top: 4px dashed black;
+		margin: 25px;
+		padding: 20px;
+		text-align: center;
+		color: black;
+		line-height: 90%;
+	}
+    div.headerText
+	{
+		font-size: 120%;
+		margin: 25px;
+		padding: 20px;
+		text-align: center;
+		color: black;
+		line-height: 90%;
+	}
+</style>
+	<title>𝑷𝑯𝒀𝑺𝑰𝑪𝑺 c:</title>
+</head>
+<body>
+<div class="bg1" style="background-position: center;"></div>
+<center>
+	<div class="main">
+		<img align="middle" src="../../title.png" class="nameBack"><br>
+        <div class="headerText">
+		2D Kinematics
+		</div>
+		<table class="infoTable">
+			<tr>
+				<td>
+					When using kinematic equations to determine two dimensional motion, you have to use them to find the x-direction variables and y-direction variables separately. True velocity, <img src="e1.png">, is the velocity tangent to the motion of the object, or in other words, the velocity you get by combining the velocity the object has in the horizontal direction with the velocity the object has in the vertical direction. These x- and y- velocities, calculated separately by the kinematic equations, are the components of the true velocity:  <img src="e2.png">. If you have the angle the true velocity has, it also equals <img src="e3.png"> or <img src="e4.png">. 
+                    
+                    <br><br>Problems involving multiple velocities are called <b>relative velocity</b> problems. (They often involve boats and planes.) There often is no acceleration in either the x or y directions in these problems. To find relative velocity, just subtract the velocity of the object by the velocity of the object you’re measuring relative to. Just make sure to factor in the direction of the velocities by using a negative sign when needed.
+
+<br><br><b>Projectile motion</b> describes an object that is thrown, or shot, in the presence of a gravity field. Thus, the acceleration of gravity is the only acceleration acting on the projectile object. Because the vertical acceleration of gravity is the only acceleration, the horizontal motion remains at a constant velocity. Also, in these problems, it is only the vertical motion that determines the time the object is in the air, not the horizontal motion.
+<br><br>
+For Projectiles Launched at an Angle (as opposed to Horizontally Launched Projectiles), there are many conceptual facts that may make your life easier:<br>
+■ The true velocity at maximum height equals the horizontal component of the launch velocity.<br>
+■ Acceleration is always -10m/s²<br>
+■ The final speed of the projectile equals the launch speed (if the landing height is the same as the launch height.)<br>
+■ For a projectile landing at its initial height, the time to maximum height is half the total time of flight.<br>
+■ To reach maximum range a projectile must have a launch angle of 45 degrees.<br>
+■ Any two launch angles adding up to 90 degrees will have the same range.<br><br>
+
+Just remember that all of these rules only apply in situations with no air drag, which is pretty much always the case when these problems show up. If there is air drag, it will say so in the problem.
+				</td>
+			</tr>
+		</table><br>
+		
+		<a href="../index.html"><img src="../back.png"></a>
+	</div>
+</center>
+</body>
+</html>

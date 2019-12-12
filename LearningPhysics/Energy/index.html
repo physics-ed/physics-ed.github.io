@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    
+<link rel="icon" href="../../favicon.png" type="image/png" >
+<style>
+    @font-face 
+	{
+		font-family: 'Gaegu-Regular';
+		src: url(Gaegu-Regular.woff);
+		font-family: "Gaegu-Regular", "Courier", monospace;
+	}
+	body 
+	{
+		background-color:#000000;
+        color: #FFFFFF;
+        
+        margin:0;
+		padding:0;
+		height:100%;
+    }
+	.bg1 
+	{
+		width:150%;
+		min-height:calc(100vh + 500px);
+		position:fixed;
+		top:0;
+		left:0;
+		background-color: #faf6eb;
+		z-index:-1;
+    }
+	.main 
+	{
+		margin:32px;
+        width: 756px;
+        font-size: 30px;
+        line-height: 80%;
+    }
+	body
+	{
+	}
+	.hardshadow
+	{
+		box-shadow: 10px 10px grey;
+	}
+	.nameBack
+	{
+		background-color: white;
+		border: 5px solid black;
+	}
+	.infoTable
+	{
+		border: 5px solid #c2fcc6;
+        box-shadow: 0px 0px 20px 5px #000000;
+		background-color: #c2fcc6;
+        color: black;
+		line-height: 110%;
+        font-size: 60%;
+	}
+	.textTable
+	{
+		border: 5px solid transparent;
+        box-shadow: 0px 0px 20px 5px transparent;
+		background-color: transparent;
+		
+	}
+	.textTableTd
+	{
+		border: 3px solid transparent;
+		background-image: none;
+		color: black;
+	}
+	td
+	{
+        border: 3px solid #00094a;
+        background-color: #d5f7ee;
+        padding: 8px;
+        text-align: justify;
+    }
+	th
+	{
+		text-align: center;
+		color: #d10000;
+		transition: 0.5s;
+	}
+	th:hover
+	{
+		transform:scale(1.125);
+		transition: 0.2s;
+	}
+	.imgbutton
+	{
+		border: 2px solid #88ff75;
+		margin: 10px;
+		box-shadow: 0px 0px 10px 2px #000000;
+		transition: 0.5s;
+       filter: brightness(100%) grayscale(0%) sepia(0%) hue-rotate(360deg) saturate(100%) contrast(1);
+	}
+    @keyframes huecycle 
+    {
+        from 
+        {
+            filter: hue-rotate(0deg) saturate(200%);
+        }
+        to 
+        {
+            filter: hue-rotate(360deg) saturate(200%);
+        }
+    }
+	.imgbutton:hover
+	{
+		border: 2px solid #ffb545;
+		transition: 0.2s;
+		transform:scale(1.125);
+	   
+        filter: brightness(75%) grayscale(100%) sepia(100%) hue-rotate(360deg) saturate(200%) contrast(1.5);
+	}
+	div.footerText
+	{
+		border-top: 4px dashed black;
+		margin: 25px;
+		padding: 20px;
+		text-align: center;
+		color: black;
+		line-height: 90%;
+	}
+    div.headerText
+	{
+		font-size: 120%;
+		margin: 25px;
+		padding: 20px;
+		text-align: center;
+		color: black;
+		line-height: 90%;
+	}
+</style>
+	<title>𝑷𝑯𝒀𝑺𝑰𝑪𝑺 c:</title>
+</head>
+<body>
+<div class="bg1" style="background-position: center;"></div>
+<center>
+	<div class="main">
+		<img align="middle" src="../../title.png" class="nameBack"><br>
+        <div class="headerText">
+		Energy
+		</div>
+		<table class="infoTable">
+			<tr>
+				<td>
+                    All energy is expressed in units of joules (J or N•m). <b>Kinetic energy</b>, <img src="e1.png">, is the energy possessed stored in the motion of objects. <b>Potential energy</b>, <img src="e2.png">, is the energy possessed by an object based on its position. <b>Mechanical energy</b> is the sum of the kinetic and potential energies in a system: <img src="e3.png">. Mechanical energy is always constant unless an outside force acts on the system (which is pretty much never). Kinetic energy can be calculated simply with <img src="e4.png">.<br><br>
+
+                    Potential energy though has multiple forms. There’s gravitational potential energy, which is the energy stored in being high up. It’s found with <img src="e5.png">, where <img src="e6.png"> is the object’s height above the ground. Then there’s <b>Elastic potential energy</b>, <img src="e7.png">, is the potential energy associated with elastic devices, such as springs. It’s calculated with <img src="e8.png">, were <img src="e9.png"> is the spring constant and <img src="e10.png"> is the distance the spring is stretched from equilibrium.<br><br>
+
+                    <b>Work</b>, <img src="e11.png">, is the process of applying a force through a distance to change the energy of an object. An easier way to think about it is how much kinetic energy you added or took away from an object. The change in kinetic energy is equal to the work. But, for calculating work, it usually ends up being much easier to use <img src="e12.png">, where <img src="e13.png"> is the force and <img src="e14.png"> is the distance the object moved.  This formula actually only works when the force and the distance the object moves is in the same direction. When this isn’t the case you use  <img src="e15.png"> where <img src="e16.png"> is the angle between the applied force and the direction the object actually moved. Note that this means:<br>
+◙ Forces perpendicular to displacement do no work.<br>
+◙ Work requires a change in position.<br><br>
+
+Work done by gravity just equals <img src="e17.png">. The work done by gravity is negative if the object is lifted, and the work done by gravity is positive if the object falls or is lowered. Another way to find work is by finding The area under the curve of a force vs. displacement graph. Also, as said before, you can calculate work by finding the change in kinetic energy. This also means work equals the change in potential energy multiplied by -1, since a negative change in potential energy causes a positive change in kinetic energy in an isolated system. Lastly, remember that since The centripetal force in circular motion is perpendicular to the velocity and displacement vectors, centripetal force does not do work.<br><br>
+
+Power, <img src="e18.png">, is the amount of work done over a period of time. The units of power is watts (W). There are many ways to calculate power: <img src="e19.png">.
+
+
+				</td>
+			</tr>
+		</table><br>
+		
+		<a href="../index.html"><img src="../back.png"></a>
+	</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    
+<link rel="icon" href="../../favicon.png" type="image/png" >
+<style>
+    @font-face 
+	{
+		font-family: 'Gaegu-Regular';
+		src: url(Gaegu-Regular.woff);
+		font-family: "Gaegu-Regular", "Courier", monospace;
+	}
+	body 
+	{
+		background-color:#000000;
+        color: #FFFFFF;
+        
+        margin:0;
+		padding:0;
+		height:100%;
+    }
+	.bg1 
+	{
+		width:150%;
+		min-height:calc(100vh + 500px);
+		position:fixed;
+		top:0;
+		left:0;
+		background-color: #faf6eb;
+		z-index:-1;
+    }
+	.main 
+	{
+		margin:32px;
+        width: 756px;
+        font-size: 30px;
+        line-height: 80%;
+    }
+	body
+	{
+	}
+	.hardshadow
+	{
+		box-shadow: 10px 10px grey;
+	}
+	.nameBack
+	{
+		background-color: white;
+		border: 5px solid black;
+	}
+	.infoTable
+	{
+		border: 5px solid #c2fcc6;
+        box-shadow: 0px 0px 20px 5px #000000;
+		background-color: #c2fcc6;
+        color: black;
+		line-height: 110%;
+        font-size: 60%;
+	}
+	.textTable
+	{
+		border: 5px solid transparent;
+        box-shadow: 0px 0px 20px 5px transparent;
+		background-color: transparent;
+		
+	}
+	.textTableTd
+	{
+		border: 3px solid transparent;
+		background-image: none;
+		color: black;
+	}
+	td
+	{
+        border: 3px solid #00094a;
+        background-color: #d5f7ee;
+        padding: 8px;
+        text-align: justify;
+    }
+	th
+	{
+		text-align: center;
+		color: #d10000;
+		transition: 0.5s;
+	}
+	th:hover
+	{
+		transform:scale(1.125);
+		transition: 0.2s;
+	}
+	.imgbutton
+	{
+		border: 2px solid #88ff75;
+		margin: 10px;
+		box-shadow: 0px 0px 10px 2px #000000;
+		transition: 0.5s;
+       filter: brightness(100%) grayscale(0%) sepia(0%) hue-rotate(360deg) saturate(100%) contrast(1);
+	}
+    @keyframes huecycle 
+    {
+        from 
+        {
+            filter: hue-rotate(0deg) saturate(200%);
+        }
+        to 
+        {
+            filter: hue-rotate(360deg) saturate(200%);
+        }
+    }
+	.imgbutton:hover
+	{
+		border: 2px solid #ffb545;
+		transition: 0.2s;
+		transform:scale(1.125);
+	   
+        filter: brightness(75%) grayscale(100%) sepia(100%) hue-rotate(360deg) saturate(200%) contrast(1.5);
+	}
+	div.footerText
+	{
+		border-top: 4px dashed black;
+		margin: 25px;
+		padding: 20px;
+		text-align: center;
+		color: black;
+		line-height: 90%;
+	}
+    div.headerText
+	{
+		font-size: 120%;
+		margin: 25px;
+		padding: 20px;
+		text-align: center;
+		color: black;
+		line-height: 90%;
+	}
+</style>
+	<title>𝑷𝑯𝒀𝑺𝑰𝑪𝑺 c:</title>
+</head>
+<body>
+<div class="bg1" style="background-position: center;"></div>
+<center>
+	<div class="main">
+		<img align="middle" src="../../title.png" class="nameBack"><br>
+        <div class="headerText">
+		Einstein Stuff
+		</div>
+		<table class="infoTable">
+			<tr>
+				<td>
+					Einstein is pretty simple if you aren’t working with systems that have acceleration in them. Simple enough that I can explain some of his laws within that constraint. Actually, the difference between special relativity and general relativity is that special relativity assumes no acceleration, while general relativity factors in acceleration. So special relativity is actually less special than general relativity. It just works for the special case that everything in a system is moving at constant velocity. (There also seems to be Doubly special relativity and de Sitter invariant special relativity, but I have no idea what the heck when it comes to those.)<br><br>
+
+The <b>first postulate of special relativity</b> is that the speed of light, <img src="e1.png">m/s, is the same for all <b>inertial reference frames</b>, which are reference frames that move at constant velocity. The <b>second postulate of special relativity</b> is that light moves at <img src="e2.png"> even if emitted from a moving source. And that’s it. It’s not like Newton's or Kepler’s Law’s where there’s a nice round 3 amount of laws. Just these two. There are weird things that happen with Time, Length, and Mass, but it’s not a part of either of these postulates.<br><br>
+
+Yes, <b>Time dilation</b> happens when an observer observes an object moving at constant velocity. The observer will see the moving object go through time slower than normal, and is calculated with <img src="e3.png"> where <img src="e4.png"> is the time that has passed for the observer, <img src="e5.png"> is the time that has appeared to pass for the object, and <img src="e6.png"> is the velocity of the object relative to the observer. Also, when an object moves, the length of the object appears to contract in length. The length that is contracted is only in the direction of motion and can be calculated with <img src="e7.png"> where <img src="e8.png"> is the object's length when it is stationary relative to the observer and <img src="e9.png"> is the object's length when it is moving at a velocity <img src="e6.png"> relative to the observer. Mass is also affected by the motion of objects, and is greater the faster the object moves: <img src="e10.png"> where <img src="e11.png"> is the object's mass when the object is stationary relative to the observer and <img src="e12.png"> is the object's mass when it is moving at a velocity <img src="e6.png"> relative to the observer.<br><br>
+
+If you can understand these equations, they basically explain why objects can’t move faster than the speed of light. If an object moved at the speed of light, time would appear to stop for it, it’s length in it’s direction of movement would be zero, and it’s mass would be infinite. 
+
+
+				</td>
+			</tr>
+		</table><br>
+		
+		<a href="../index.html"><img src="../back.png"></a>
+	</div>
+</center>
+</body>
+</html>
